@@ -1,0 +1,104 @@
+/* ==================================================================== RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: sans-serif;    
+    list-style-position: inside;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+header, section, footer, aside, nav, main, article, figure {display: block;}
+
+html, body {height: 100%;}
+
+/* ================================================================== HELPERS */
+
+.overflow {overflow: auto;}
+
+.container {margin: 0 auto;}
+
+@media all and (min-width: 768px) {
+.container {max-width: 750px; }
+}
+
+@media all and (min-width: 992px) {
+.container {max-width: 970px;}
+}
+
+@media all and (min-width: 1200px) {
+.container {max-width: 1170px;}
+}
+
+/* ================================================================== HELPERS */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+[class*="col-"] {width: 100%;}
+}
+
+/* ================================================================== FLEXBOX */
+
+.column {display: -webkit-flex;display: -ms-flexbox;display: flex;  -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;}
+.inline-row {display: -webkit-inline-flex;display: -ms-inline-flexbox;display: inline-flex;}
+.row {display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;}
+
+.nowrap {-webkit-flex-wrap: nowrap;-ms-flex-wrap: nowrap;flex-wrap: nowrap;}
+.wrap {-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+
+.jc-flex-start {-webkit-justify-content: flex-start;-ms-flex-pack: start;justify-content: flex-start;}
+.jc-flex-end {-webkit-justify-content: flex-end;-ms-flex-pack: end;justify-content: flex-end;}
+.jc-center {-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;}
+.jc-space-between {-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;}
+.jc-space-around {-webkit-justify-content: space-around;-ms-flex-pack: distribute;justify-content: space-around;}
+
+.ai-flex-start {-webkit-align-items: flex-start;-ms-flex-align: start;align-items: flex-start;}
+.ai-flex-end {-webkit-align-items: flex-end;-ms-flex-align: end;align-items: flex-end;}
+.ai-center {-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.ai-stretch {-webkit-align-items: stretch;-ms-flex-align: stretch;align-items: stretch;}
+.ai-baseline {-webkit-align-items: baseline;-ms-flex-align: baseline;align-items: baseline;}
+
+.ac-flex-start {-webkit-align-content: flex-start;-ms-flex-line-pack: start;align-content: flex-start;}
+.ac-flex-end {-webkit-align-content: flex-end;-ms-flex-line-pack: end;align-content: flex-end;}
+.ac-center {-webkit-align-content: center;-ms-flex-line-pack: center;align-content: center;}
+.ac-space-between {-webkit-align-content: space-between;-ms-flex-line-pack: justify;align-content: space-between;}
+.ac-space-around {-webkit-align-content: space-around;-ms-flex-line-pack: distribute;align-content: space-around;}
+
+
+.fg-0 {-webkit-flex-grow: 0;-ms-flex-positive: 0;flex-grow: 0;}
+.fg-1 {-webkit-flex-grow: 1;-ms-flex-positive: 1;flex-grow: 1;}
+.fg-2 {-webkit-flex-grow: 2;-ms-flex-positive: 2;flex-grow: 2;}
+.fg-3 {-webkit-flex-grow: 3;-ms-flex-positive: 3;flex-grow: 3;}
+
+.fs-0 {-webkit-flex-shrink: 0;-ms-flex-negative: 0;flex-shrink: 0;}
+.fs-1 {-webkit-flex-shrink: 1;-ms-flex-negative: 1;flex-shrink: 1;}
+.fs-2 {-webkit-flex-shrink: 2;-ms-flex-negative: 2;flex-shrink: 2;}
+.fs-3 {-webkit-flex-shrink: 3;-ms-flex-negative: 3;flex-shrink: 3;}
+
+.as-auto {-webkit-align-self: auto;-ms-flex-item-align: auto;align-self: auto;}
+.as-flex-start {-webkit-align-self: flex-start;-ms-flex-item-align: start;align-self: flex-start;}
+.as-flex-end {-webkit-align-self: flex-end;-ms-flex-item-align: end;align-self: flex-end;}
+.as-center {-webkit-align-self: center;-ms-flex-item-align: center;align-self: center;}
+.as-stretch {-webkit-align-self: stretch;-ms-flex-item-align: stretch;align-self: stretch;}
+.as-baseline {-webkit-align-self: baseline;-ms-flex-item-align: baseline;align-self: baseline;}
+
+/* ============================================================ MEDIA QUERIES */
+
+@media all and (max-width: 1200px) {
+
+}
